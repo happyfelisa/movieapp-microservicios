@@ -15,7 +15,7 @@ import { CreatePlaylistInput } from './dto/create-playlist.input';
 import { PlaylistType } from './entities/PlaylistType';
 import { UserType } from './entities/UserType';
 import { UpdatePlaylistInput } from './dto/update-playlist.input';
-import { RemovePlaylistInput } from './entities/remove-playlist.input';
+import { RemovePlaylistInput } from './dto/remove-playlist.input';
 
 @Resolver(() => PlaylistType)
 export class PlaylistsResolver {
